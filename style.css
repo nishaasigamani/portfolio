@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Anton&family=Dancing+Script&family=Tapestry&family=Tenor+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #3fccbe;
+    font-family:'Tapestry', cursive ;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin-right: 20px;
+}
+.logo-img img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+}
+nav ul li a{
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color:white;
+}
+header{
+    width: 100%;
+    height: 25vh;
+    background: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+.bio{
+    display: flex;
+    align-items: center;
+}
+.bio article{
+    margin: 100px;
+}
+.bio img{
+    width: 40vw;
+    height: 40vh;
+    border: solid black;
+    margin-right: 20px;
+}
+.portfolio h3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.portfolio hr{
+ line-height: 500px;
+}
+.portfolio div{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.portfolio div article {
+    color: black;
+    background: hsl(339, 77%, 59%);
+    display: flex;
+    height: 400px;
+    width: 400px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.portfolio div article p{
+    font-weight: bold;
+    font-size: 1em;
+}
+.portfolio div article img{
+    height: 20vh;
+    width: 20vw;
+}
+.portfolio div article h4{
+    font-weight: bold;
+    font-size: 1em;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.skills-container div{
+    align-items: center;
+}
+.skills ul{
+    list-style: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+.skills ul li{
+    margin-top: 10px;
+    font-size: 1em;
+}
+progress[value]{
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+}
+.skills ul{
+    font-size: 1.5em;;
+}
+.contact{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding: 20px;
+}
+.input{
+    line-height: 2em;
+    width: 400px;
+    border-radius: 3px;
+    border-color: black;
+    margin: 20px 0;
+}
+
+    
+
+
+
+
